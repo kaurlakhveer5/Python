@@ -1,1 +1,16 @@
-hello
+Step 1: Requested maximum daily temperature data for burbank through API request
+  Time period: 1970-2100
+  Scnerios Used: historical, RCP 8.5, RCP 4.5
+  Models: 'CanESM2', 'CNRM-CM5', 'HadGEM2-ES', 'MIROC5', 'GFDL-CM3'
+  Units: C
+  
+Step 2: Make data ready for the next step
+        Saved data in pandas dataframe
+        Used Pivot tables to differentiate scnrios and models
+        Labeled all the columns and set date index
+
+Step3: Plot 95th and 90th percentile of 30 years of Tmax data for each model
+        Found 30 year running 95th and 90th percentile for the data set 
+        Plot Temp vs Year graph represetning 90th and 95th percentile for every Scneior separately
+        plot 95th percentile of each scnerio on the same graph to compare them 
+

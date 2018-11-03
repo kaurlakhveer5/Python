@@ -3,3 +3,9 @@ These files were created for my office staff to show the usage of API and python
 2. Calculated yearly average temperature
 3. Found Yearly maximum and minimum temperature 
 4. Plotted evertthing on separate graphs
+
+In precipitation file, 
+1. Requested daily precipitation data using cal-Adapt API with five climate models and two different scnerios
+2. Found 30 year running 95th and 99th percentile precipitation to find future trends
+3. Plot the data to show how precipitation is increasing late in this century
+4. Found that precipitation is getting higher but the window of higher-precipitation getting smaller every year 

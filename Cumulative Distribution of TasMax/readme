@@ -1,0 +1,20 @@
+In this notebook, we analyzed the daily max data for San Joaquin Valley and found the significant difference in historical tmax and rojected tmax temperatures. 
+Below are more specification:
+
+1. Download the data
+  Requested the tmax daily-data using cal adapt API with following specifications:
+  - Scnerio is histrocial and rcp 8.5. 
+  - Place is San Joaquin Valley with coordinates (-120.1106 36.3744)
+  - GCMs: CanESM2, CNRM-CM5, HadGEM2-ES, MIROC5
+2. Prep the Data 
+  Divided the data into two groups 1961-1990 and 2021-2050
+  For sake of simiplicity, chose July to observe maximum temperature 
+3. Found Commulative Frequency of data
+  Specified the total number of bins and label every data point with relative bin (used pd.cut function)
+  Find the frequency of each bin by using groupby function
+  Add the frequencies to find cummulative frequencies. Pandas's cumsum worked well here!
+4. Plot Graphs
+  Plotted histroical (1961-1990) cummulative frequencies vs projected (2021-2050) cummulative frequnecies on a same graph to find the relationship
+  plotted hhistorical percentile vs projected percentile
+  One more graph with historical Daily Tmax vs Projected Daily tmax
+  

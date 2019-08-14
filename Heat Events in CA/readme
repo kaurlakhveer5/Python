@@ -1,0 +1,1 @@
+In this notebook, I have analyzed daily maximum tempertaure in LA, SD, SB, SJ, Sac and Fresno in California. Only days where tmax is gretaer than 90th percentile of historical (1961-1990) are kept. Every bubble represents one day on graph. In this analysis I have used CanESM GCM with rcp 8.5 

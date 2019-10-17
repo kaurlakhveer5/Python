@@ -18,7 +18,7 @@ Below are more specification:
   plotted hhistorical percentile vs projected percentile
   One more graph with historical Daily Tmax vs Projected Daily tmax
   
-  Introduction (In All-GCMs_prediction Wild Fires-.ipynb Notebook): California fires have been very destructive in recent years. In this analysis, we observe the change in frequency of different events, which might lead to fires. For example, high precipitation in one year lead by very hot temperature in next year. We used the conditions that were originally specified in Balch et al., 2018. 
+Introduction (In All-GCMs_prediction Wild Fires-.ipynb Notebook): California fires have been very destructive in recent years. In this analysis, we observe the change in frequency of different events, which might lead to fires. For example, high precipitation in one year lead by very hot temperature in next year. We used the conditions that were originally specified in Balch et al., 2018. 
 Upper tercile for precipitation from Oct of the prior year to April; top decile of temperature from May to September; bottom decile of precipitation from Sept to December; and, extremely hot Oct to December (OND) period (98th percentile or higher) when the wildfires would tend to occur when vegetation is dry.  The terciles, deciles, and percentiles were calculated from the 1961 to 1990 baseline period.  
 Please note that this work is a replication of Franco Guido’s report “PROBABILISTIC” CLIMATE PROJECTIONS FOR CALIFORNIA. 
 
